@@ -95,7 +95,9 @@
 .u-section-2 .u-icon-1 {
   height: 46px;
   width: 46px;
+  background-image: none;
   margin: 1px auto 0;
+  padding: 9px;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -105,7 +107,9 @@
 .u-section-2 .u-icon-2 {
   height: 46px;
   width: 46px;
+  background-image: none;
   margin: 1px auto 0;
+  padding: 9px;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -115,7 +119,9 @@
 .u-section-2 .u-icon-3 {
   height: 46px;
   width: 46px;
+  background-image: none;
   margin: 1px auto 0;
+  padding: 9px;
 }
 
 .u-section-2 .u-container-layout-4 {
@@ -125,7 +131,9 @@
 .u-section-2 .u-icon-4 {
   height: 46px;
   width: 46px;
+  background-image: none;
   margin: 1px auto 0;
+  padding: 9px;
 }
 
 @media (max-width: 1199px) {
@@ -164,18 +172,30 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 322px;
+    min-height: 262px;
+  }
+
+  .u-section-2 .u-list-1 {
+    margin-bottom: 0;
   }
 
   .u-section-2 .u-repeater-1 {
     min-height: 202px;
-    grid-template-columns: 50% 50%;
+    grid-auto-columns: 25%;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 270px;
+  }
+
+  .u-section-2 .u-list-1 {
+    margin-bottom: 59px;
+  }
+
   .u-section-2 .u-repeater-1 {
-    grid-template-columns: 100%;
+    min-height: 149px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -196,6 +216,21 @@
   .u-section-2 .u-container-layout-4 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 235px;
+  }
+
+  .u-section-2 .u-list-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .u-section-2 .u-repeater-1 {
+    min-height: 136px;
   }
 } .u-section-3 {
   background-image: linear-gradient(white, #f2f2f2);
@@ -241,9 +276,14 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 925px;
+  }
+
   .u-section-3 .u-text-1 {
     font-size: 3rem;
     width: 340px;
+    margin-top: 0;
   }
 
   .u-section-3 .u-text-2 {
@@ -624,7 +664,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-repeater-1 {
-    grid-template-columns: 100%;
+    grid-auto-columns: 50%;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -650,6 +690,10 @@
   .u-section-4 .u-container-layout-5 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .u-section-4 .u-icon-5 {
+    height: 100px;
   }
 
   .u-section-4 .u-container-layout-6 {
